@@ -1,0 +1,245 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+nav a:hover {
+    background-color: #555;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 100%;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+  
+  }
+
+.box {
+    display: flex;
+    width: 30%; /* Adjust as needed */
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    flex-flow: column;
+  }
+  
+.box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+.employeeimg {
+    display: flex;
+
+    height: 325px;
+    width: 325px;
+}
+
+.employtext {
+    font-size: xx-large;
+}
+
+.homeimg {
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.employ {
+    display: flex;
+    width: 325px;
+    height: 325px;
+}
+
+.trainessimg{
+    display: flex;
+    height: 325px;
+    width: 325px;
+    left: 1000px;
+}
+
+.Hometext{
+    font-size: xx-large;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: grey;
+}
+ 
+.carousel-item iframe {
+    width: 800px;
+    height: 385px;
+}
+
+.card {
+    height: 500px;
+    width: 750px;
+}
+
+.form-holder  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+/* Styling for form content */
+.form-holder .form-content {
+    position: relative;
+    text-align: center;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    align-items: center;
+    padding: 60px;
+}
+
+/* Styling for form items */
+.form-content .form-items {
+    border: 3px solid #000000;
+    padding: 40px;
+    display: inline-block;
+    width: 100%;
+    min-width: 540px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-align: left;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+/* Styling for form title */
+.form-content h3 {
+    color: #000000;
+    text-align: left;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+/* Styling for form title within form content */
+.form-content h3.form-title {
+    margin-bottom: 30px;
+}
+
+
+/* Styling for paragraphs within form content */
+.form-content p {
+    color: #000000;
+    text-align: left;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+/* Styling for labels and validated form check labels */
+.form-content label,
+.was-validated .form-check-input:invalid~.form-check-label,
+.was-validated .form-check-input:valid~.form-check-label {
+    color: #fff;
+}
+
+/* Styling for form inputs */
+.form-content input[type=text],
+.form-content input[type=password],
+.form-content input[type=email],
+.form-content select {
+    width: 100%;
+    padding: 9px 20px;
+    text-align: left;
+    border: 0;
+    outline: 10px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8D8D8D;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-top: 16px;
+    outline-color: #000000;
+}
+
+/* Styling for primary button */
+.btn-primary {
+    background-color: #193C4A;
+    outline: none;
+    border: 0px;
+    box-shadow: none;
+}
+
+/* Styling for primary button on hover, focus, and active states */
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #092833;
+    outline: none !important;
+    border: none !important;
+    box-shadow: none;
+}
+
+/* Styling for textarea within form content */
+.form-content textarea {
+    position: static !important;
+    width: 100%;
+    padding: 8px 20px;
+    border-radius: 6px;
+    text-align: left;
+    background-color: #ffffff;
+    border: 0;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8D8D8D;
+    outline: none;
+    resize: none;
+    height: 120px;
+    -webkit-transition: none;
+    transition: none;
+    margin-bottom: 14px;
+}
+
+
